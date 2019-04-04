@@ -97,7 +97,7 @@ service-worker: true
 
 
 # Friends
-study Websites: [
+friends: [
     {
         title: "逗逼网，专业表情包",
         href: "http://bee-ji.com"
