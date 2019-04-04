@@ -1,6 +1,6 @@
 # Site settings
-title: 35rencai Club
-SEOTitle: 35人才俱乐部 | 35rencai Club
+title: 35人才俱乐部 
+SEOTitle: 35人才俱乐部
 header-img: img/post-bg-desk.jpg
 email: 814460286@qq.com
 description: "Every failure is leading towards success."
@@ -97,18 +97,33 @@ service-worker: true
 
 
 # Friends
-friends: [
+study Websites: [
     {
         title: "逗逼网，专业表情包",
         href: "http://bee-ji.com"
     },{
-        title: "百度",
-        href: "http://www.baidu.com"
+        title: "Google",
+        href: "https://www.google.com/search?q=google&rlz=1C1GCEU_zh-CNSG830SG830&oq=g&aqs=chrome.4.69i60l2j69i59j69i60j0l2.1681j0j4&sourceid=chrome&ie=UTF-8"
     },{
-        title: "Apple",
-        href: "https://apple.com"
+        title: "spring core",
+        href: "https://docs.spring.io/spring-framework/docs/5.1.3.RELEASE/spring-framework-reference/"
     },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "spring doc",
+        href: "https://docs.spring.io/spring-framework/docs/5.1.3.RELEASE/"
+    },{
+        title: "菜鸟教程",
+        href: "http://www.runoob.com/"
+    },{
+        title: "spring-boot docs",
+        href: "https://docs.spring.io/spring-boot/docs/"
+    },{
+        title: "spring框架jar下载",
+        href: "http://repo.spring.io/release/org/springframework/spring/"
+    },{
+        title: "Greenwich.RELEASE",
+        href: "http://cloud.spring.io/spring-cloud-static/Greenwich.RELEASE/multi/multi_spring-cloud.html"
+    },{
+        title: "Finchley.SR1",
+        href: "http://cloud.spring.io/spring-cloud-static/Finchley.SR1/multi/multi_spring-cloud.html"
     }
 ]
