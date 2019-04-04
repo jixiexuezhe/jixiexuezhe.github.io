@@ -11,7 +11,7 @@ github_repo: "https://github.com/jixiexuezhe/jixiexuezhe.github.io.git" # you co
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "既然不能改变世界，那就尝试改变自己 ！"
 sidebar-avatar: /img/avatar_m.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
