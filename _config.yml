@@ -1,17 +1,17 @@
 # Site settings
-title: 35人才俱乐部 
-SEOTitle: 35人才俱乐部
+title: 朱俊杰的博客
+SEOTitle: 朱俊杰的博客
 header-img: img/post-bg-desk.jpg
 email: 814460286@qq.com
 description: "Every failure is leading towards success."
-keyword: "35sui, 35sui Club, 35rencai俱乐部, java, python,js,web"
+keyword: "朱俊杰的博客, java, python,js,web"
 url: "http://jixiexuezhe.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/jixiexuezhe/jixiexuezhe.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "既然不能改变世界，那就尝试改变自己 ！"
+sidebar-about-description: "伟大的人物都在改变世界！"
 sidebar-avatar: /img/avatar_m.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
