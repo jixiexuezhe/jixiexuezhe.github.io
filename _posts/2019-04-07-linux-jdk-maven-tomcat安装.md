@@ -45,3 +45,4 @@ tomcat 页面管理配置
          docBase="${catalina.home}/webapps/manager">
     <Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="^.*$" />
 </Context>
+参考：https://www.cnblogs.com/ianduin/p/7231212.html
