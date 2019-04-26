@@ -26,3 +26,22 @@ export PATH=${PATH}:${MAVEN_HOME}/bin
 tar -zxvf aapache-tomcat-8.5.39.tar.gz
 cd  /opt/apache-tomcat-8.5.39/bin
 ./startup.sh
+
+
+tomcat 页面管理配置
+
+修改conf/tomcat-users.xml
+
+<role rolename="manager"/>
+
+<role rolename="manager-gui"/>
+<role rolename="admin"/>
+
+<user username="tomcat" password="tomcat" roles="admin,manager,manager-gui"/>
+
+同时还需要修改，如无新建conf/Catalina/localhost/manager.xml 内容如下：
+
+<Context privileged="true" antiResourceLocking="false"
+         docBase="${catalina.home}/webapps/manager">
+    <Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="^.*$" />
+</Context>
