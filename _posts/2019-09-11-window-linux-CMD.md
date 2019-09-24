@@ -25,3 +25,15 @@ vi /etc/selinux/config
 
 ### yum install -y telnet-server.x86_64
 ### yum install -y telnet.x86_64
+
+
+## centos7 时间设置
+
+终端输入命令：tzselect
+
+根据提示选择：
+5 --> 9-->1-->1-->ok
+
+cat /etc/sysconfig/clock ZONE=Asia/Shanghai
+rm /etc/localtime
+ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
