@@ -52,3 +52,20 @@ vim /etc/security/limits.conf
 
 vi /etc/profile 将 ulimit -n 65535 行注释掉，退出重新进入当前用户，再使用 ulimit -Hn 查看当前值，已经是131072了，设置成功！
 退出重新登录
+bin/elasticsearch (后台运行  bin/elasticsearch -d )
+jps 查看进程
+
+bash-4.2$ curl http://172.16.3.20:9200?pretty
+{
+  "name" : "node-1",
+  "cluster_name" : "elasticsearch",
+  "cluster_uuid" : "t20t7D1FRdeMGzwbFDGObg",
+  "version" : {
+    "number" : "5.5.1",
+    "build_hash" : "19c13d0",
+    "build_date" : "2017-07-18T20:44:24.823Z",
+    "build_snapshot" : false,
+    "lucene_version" : "6.6.0"
+  },
+  "tagline" : "You Know, for Search"
+}
