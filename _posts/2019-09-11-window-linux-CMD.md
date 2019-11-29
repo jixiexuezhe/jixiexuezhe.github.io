@@ -1,6 +1,8 @@
 ## widows 
 
 netstat -ano |findstr "端口号"
+
+tasklist /fi "imagename eq nginx.exe"
 taskkill /f /t /im "进程id或者进程名称"
 
 
