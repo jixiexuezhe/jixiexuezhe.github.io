@@ -29,15 +29,15 @@ vi /etc/selinux/config
 ### yum install -y telnet.x86_64
 
 
-## centos7 时间设置
+## centos7 时间设置 （查看 timedatectl ）
 
 ### 终端输入命令：tzselect
 
 ### 根据提示选择：
 ### 5 --> 9-->1-->1-->ok
 
-### cat /etc/sysconfig/clock ZONE=Asia/Shanghai
-### rm /etc/localtime
+### cat /etc/sysconfig/clock ZONE=Asia/Shanghai (新机器可忽略)
+### rm /etc/localtime (新机器可忽略)
 ### ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 
 ### 局域网时间同步 ： https://www.cnblogs.com/onlookers/p/4308383.html
