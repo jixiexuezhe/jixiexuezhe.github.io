@@ -31,11 +31,13 @@ vi /etc/selinux/config
 
 ## centos7 时间设置
 
-终端输入命令：tzselect
+### 终端输入命令：tzselect
 
-根据提示选择：
-5 --> 9-->1-->1-->ok
+### 根据提示选择：
+### 5 --> 9-->1-->1-->ok
 
-cat /etc/sysconfig/clock ZONE=Asia/Shanghai
-rm /etc/localtime
-ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+### cat /etc/sysconfig/clock ZONE=Asia/Shanghai
+### rm /etc/localtime
+### ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+
+### 局域网时间同步 ： https://www.cnblogs.com/onlookers/p/4308383.html
