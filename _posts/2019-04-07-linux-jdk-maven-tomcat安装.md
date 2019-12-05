@@ -11,7 +11,8 @@
 ###  
 ###  完成jdk环境变量的配置后保存并在命令行界面执行  source /etc/profile
 ###  
-###  maven 安装
+###  maven 安装 
+###  下载地址： https://www-us.apache.org/dist/maven/maven-3/
 ###  tar vxf apache-maven-3.5.4-bin.tar.gz
 ###  
 ###  在/etc/profile中添加以下几行
