@@ -8,7 +8,7 @@
 
 ## linux 
 
-netstat -ntulp "端口号"
+netstat -ntulp  | grep "端口号"
 kill -9 "端口号"
 
 ###  查看防火墙     firewall-cmd --state
