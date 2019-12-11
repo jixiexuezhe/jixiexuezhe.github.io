@@ -19,22 +19,22 @@ gitlab_rails['gitlab_shell_ssh_port'] = 222 # 此端口是run时22端口映射�
 
 ## 5 重启 docker restart gitlab
 
-# 重新应用gitlab的配置
+#重新应用gitlab的配置
 gitlab-ctl reconfigure
  
-# 重启gitlab服务
+#重启gitlab服务
 gitlab-ctl restart
  
-# 查看gitlab运行状态
+#查看gitlab运行状态
 gitlab-ctl status
  
 #停止gitlab服务
 gitlab-ctl stop
  
-# 查看gitlab运行日志
+#查看gitlab运行日志
 gitlab-ctl tail
  
-# 停止相关数据连接服务
+#停止相关数据连接服务
 gitlab-ctl stop unicorn
 gitlab-ctl stop sideki
 
