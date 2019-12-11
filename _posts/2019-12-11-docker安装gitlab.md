@@ -21,11 +21,11 @@ gitlab_rails['gitlab_shell_ssh_port'] = 222 # 此端口是run时22端口映射�
 ## 6 注意点：
 vi /home/gitlab/data/gitlab-rails/etc/gitlab.yml 80端口改为映射端口9999 重启docker后会还原
 
-gitlab:
-    ## Web server settings (note: host is the FQDN, do not include http://)
-    host: 172.16.3.20
-    port: 80
-    https: false
+gitlab:  
+    ## Web server settings (note: host is the FQDN, do not include http://)  
+    host: 172.16.3.20  
+    port: 80  
+    https: false  
     
     解决办法：（不要执行gitlab-ctl reconfigure 每次docker重启都要改此端口，否则http无法clone）
     docker exec -ti gitlab /bin/bash 
