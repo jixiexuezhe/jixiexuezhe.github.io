@@ -41,3 +41,7 @@ vi /etc/selinux/config
 ### ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 
 ### 局域网时间同步 ： https://www.cnblogs.com/onlookers/p/4308383.html
+
+## 华为云修改hostname
+vi /etc/hostname 然后reboot
+参考这个地址貌似没反应：https://segmentfault.com/a/1190000005631361
