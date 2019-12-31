@@ -1,4 +1,4 @@
-
+## 1. 创建目录下载配置文件并修改
 docker pull redis
 mkdir /opt/docker-redis
 cd /opt/docker-redis
@@ -11,7 +11,7 @@ protected-mode no
 appendonly yes//持久化  
 requirepass yourpassword  
 
-
+## 2. 运行脚本即可
 docker run \
 -p 6379:6379 \
 -v $PWD/data:/data \
