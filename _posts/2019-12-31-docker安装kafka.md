@@ -1,7 +1,7 @@
 
-docker pull zookeeper:3.5.6
-docker pull wurstmeister/kafka
-docker run -d --name zookeeper  -p 2181:2181 zookeeper:3.5.6
+docker pull zookeeper:3.5.6  
+docker pull wurstmeister/kafka  
+docker run -d --name zookeeper  -p 2181:2181 zookeeper:3.5.6  
 
 docker run -d --name kafka -p 9092:9092 \
 --link zookeeper:zookeeper \
@@ -12,7 +12,7 @@ docker run -d --name kafka -p 9092:9092 \
 --env KAFKA_ADVERTISED_PORT=9092 \
 -t wurstmeister/kafka
 
-创建topic
+创建topic  
 bin/kafka-topics.sh --create \
 --zookeeper 39.107.51.65:2181 \
 --topic test1 \
