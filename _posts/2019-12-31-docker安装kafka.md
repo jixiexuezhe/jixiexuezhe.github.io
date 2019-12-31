@@ -12,6 +12,8 @@ docker run -d --name kafka -p 9092:9092 \
 --env KAFKA_ADVERTISED_PORT=9092 \
 -t wurstmeister/kafka
 
+
+进入容器 cd /opt/kafka_2.12-2.4.0  
 创建topic  
 bin/kafka-topics.sh --create \
 --zookeeper 39.107.51.65:2181 \
