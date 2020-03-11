@@ -69,3 +69,7 @@ bash-4.2$ curl http://172.16.3.20:9200?pretty
   },  
   "tagline" : "You Know, for Search"  
 }  
+
+----------------------------------------------------------------------  
+elasticsearch6.4 memory locking requested for elasticsearch process but memory is not locked 终极解决
+https://www.cnblogs.com/gaoyuechen/p/9842349.html
