@@ -1,7 +1,7 @@
 ## 1. 创建目录下载配置文件并修改
-docker pull redis
-mkdir /opt/docker-redis
-cd /opt/docker-redis
+docker pull redis  
+mkdir /opt/docker-redis  
+cd /opt/docker-redis  
 
 官网获取配置文件http://download.redis.io/redis-stable/redis.conf
 
